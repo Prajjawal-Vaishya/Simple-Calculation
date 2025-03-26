@@ -9,7 +9,7 @@ body {
     padding: 0;
     height: 100vh; /* Sets the height to 100% of the viewport height */
 }
-  
+ 
 
 div.top_bar {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
@@ -101,6 +101,26 @@ div.content_body div.right_bar .calculator_box .display {
     background-color: black;
     border-radius: 16px;
     height: 8vh;
+}
+
+div.content_body div.right_bar .calculator_box .display .display_num {
+    padding: 0px 10px;
+    height: 100%;
+}
+
+div.content_body div.right_bar .calculator_box .display .display_num .small_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 18px;
+    gap: 6px;
+}
+
+div.content_body div.right_bar .calculator_box .display p {
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 div.content_body div.right_bar .calculator_box .button_grid {
